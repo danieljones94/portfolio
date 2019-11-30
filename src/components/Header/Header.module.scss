@@ -3,13 +3,12 @@
 
   .titleContainer {
     display: flex;
-    height: 100vh;
+    height: 100%;
   }
   .leftSideHeader {
     width: 50%;
     background-color: white;
-    color: #ff414f;
-    font-family: "Montserrat", sans-serif;
+    color: #4a738c;
     display: flex;
     flex-direction: column;
   }
@@ -53,9 +52,8 @@
 
   .rightSideHeader {
     width: 50%;
-    background-color: #ff414f;
+    background-color: #4a738c;
     color: white;
-    font-family: "Montserrat", sans-serif;
   }
 
   .rightSideHeader h2 {
@@ -68,7 +66,6 @@
 
   .rightSideHeader h3 {
     font-size: 2em;
-    margin-top: 18%;
     margin-left: 1vw;
     animation: aniload 3s;
 

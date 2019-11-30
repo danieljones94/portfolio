@@ -1,0 +1,55 @@
+.introContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .gridContainer {
+    margin-top: 5vh;
+  }
+
+  .row {
+    height: 33.3%;
+  }
+
+  .html {
+    background-image: url(../../images/photo-1454165205744-3b78555e5572.jfif);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .agile {
+    background-image: url(../../images/photo-1512758017271-d7b84c2113f1.jfif);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .database {
+    background-image: url(../../images/DatabaseDesign_Infographic-1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .unitTesting {
+    background-image: url(../../images/Unit-Testing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .gitHub {
+    background-image: url(../../images/machine_learning_github.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .react {
+    background-image: url(../../images/1_y6C4nSvy2Woe0m7bWEn4BA.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .softSkills {
+    background-image: url(../../images/1A83FE99-F4E9-468B-BC04-1526DB47954C.JPEG);
+    background-size: cover;
+  }
+}
