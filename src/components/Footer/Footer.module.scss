@@ -1,0 +1,24 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  height: 10vh;
+  color: white;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  .infoIcon {
+    height: 50%;
+    margin: auto 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin: auto 0;
+    font-family: "Montserrat", sans-serif;
+  }
+}

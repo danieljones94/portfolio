@@ -1,7 +1,29 @@
 .workContainer {
-  height: 100vh;
+  background-color: #4a738c;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  margin-top: 5vh;
+  padding: 5vh 0;
+
+  .panelLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+    &:hover {
+      cursor: pointer;
+    }
+
+    :nth-child(even):hover {
+      transform: scale(1.1);
+      transition: ease 1s;
+    }
+
+    :nth-child(odd):hover {
+      transform: scale(1.1);
+      transition: ease 1s;
+    }
+  }
 }

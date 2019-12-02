@@ -8,7 +8,7 @@
   .leftSideHeader {
     width: 50%;
     background-color: white;
-    color: #4a738c;
+    color: #49728c;
     display: flex;
     flex-direction: column;
   }
@@ -93,5 +93,17 @@
 
   .webDeveloper {
     color: black;
+  }
+
+  .scroll {
+    display: block;
+    text-align: center;
+    margin: 2vw;
+    font-size: 2.5em;
+    color: rgb(80, 101, 110);
+    &:hover {
+      color: rgb(80 * 0.7, 101 * 0.7, 110 * 0.7);
+      cursor: pointer;
+    }
   }
 }

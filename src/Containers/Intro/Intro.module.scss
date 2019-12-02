@@ -53,3 +53,15 @@
     background-size: cover;
   }
 }
+
+.scroll {
+  display: block;
+  text-align: center;
+  margin: 2vw;
+  font-size: 2.5em;
+  color: rgb(80, 101, 110);
+  &:hover {
+    color: rgb(80 * 0.7, 101 * 0.7, 110 * 0.7);
+    cursor: pointer;
+  }
+}

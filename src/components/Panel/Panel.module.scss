@@ -1,6 +1,14 @@
 .panelContainer {
-  border: black solid 2px;
-  height: 35%;
   width: 40%;
-  margin: 5vh;
+  margin-top: 5vh;
+  box-shadow: 0 15px 10px rgb(35, 54, 66);
+  border: none;
+  border-radius: 5%;
+
+  .panel {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+  }
 }

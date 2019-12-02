@@ -5,10 +5,13 @@ class Panel extends Component {
   state = {};
   render() {
     return (
-      <article className={styles.panelContainer}>
-        <p>{this.props.title}</p>
-        <p>{this.props.description}</p>
-      </article>
+      <section className={styles.panelContainer}>
+        <img
+          className={styles.panel}
+          src={this.props.image}
+          alt={this.props.title}
+        />
+      </section>
     );
   }
 }
