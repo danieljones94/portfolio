@@ -56,10 +56,8 @@ export const data = [
   {
     title: "Flow Wellbeing",
     image: Flow,
-    description:
-      "Flow is a personal blog that I have set up around mental performance and wellbeing. I had a previous website that I used to post articles, but I saw a big oppurtunity to have a go at coding my own website using React.",
-    requirements:
-      "There were no official requirements, but I needed to be able to create new articles and post them to the website blog page. A secondary requirement was to be able to navigate around multiple pages using a navigation menu."
+    description: "In progress",
+    requirements: "In progress"
   },
   {
     title: "Filter Buttons",

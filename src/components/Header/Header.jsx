@@ -9,13 +9,12 @@ class Header extends Component {
     return (
       <header className={styles.headerContainer}>
         <section className={styles.titleContainer}>
-          <div className={styles.leftSideHeader}>
-            <h2>DANIEL</h2>
-            <h3>WEB</h3>
-          </div>
-          <div className={styles.rightSideHeader}>
-            <h2>JONES.</h2>
-            <h3>DEVELOPER</h3>
+          <div className={styles.title}>
+            <h1>
+              DANIEL <span>JONES</span>
+            </h1>
+            <h2>Web</h2>
+            <h2>Developer</h2>
           </div>
           <a href="#intro" className={styles.scroll}>
             <FontAwesomeIcon icon={faChevronDown} />

@@ -45,14 +45,25 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "@storybook/addon-actions": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
     "exact": "^0.8.0",
+    "jest": "^24.9.0",
     "prettier": "^1.19.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

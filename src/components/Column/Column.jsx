@@ -16,7 +16,7 @@ class Column extends Component {
           transform: "scale(1.1)",
           transition: "all 1s ease",
           color: "white",
-          backgroundColor: "#4a738c",
+          // backgroundColor: "transparent",
           padding: "3vh"
         })
       : (style = {
