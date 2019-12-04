@@ -5,6 +5,12 @@
   border: none;
   border-radius: 5%;
 
+  &:hover {
+    cursor: pointer;
+    opacity: 0.2;
+    background-color: whitesmoke;
+  }
+
   .panel {
     height: 100%;
     width: 100%;

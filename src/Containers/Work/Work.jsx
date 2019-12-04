@@ -16,6 +16,7 @@ class Work extends Component {
                 description={panel.description}
                 key={index}
                 requirements={panel.requirements}
+                url={panel.url}
               />
             );
           })}

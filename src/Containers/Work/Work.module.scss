@@ -12,9 +12,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 10vh;
-    &:hover {
-      cursor: pointer;
-    }
 
     :nth-child(even):hover {
       transform: scale(1.1);

@@ -1,29 +1,42 @@
 .introContainer {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
+  text-align: -webkit-center;
 
   .gridContainer {
     margin-top: 5vh;
+    margin: none;
+    position: relative;
+    right: 5vw;
   }
 
   .row {
     height: 33.3%;
+    width: 70vw;
   }
 
   .html {
     background-image: url(../../images/photo-1454165205744-3b78555e5572.jfif);
+    height: 100%;
+    width: 40vw;
     transition: all 0.5s ease-in-out;
   }
 
   .agile {
     background-image: url(../../images/photo-1512758017271-d7b84c2113f1.jfif);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 29.6vw;
     background-position: center;
     background-size: cover;
   }
 
   .database {
     background-image: url(../../images/DatabaseDesign_Infographic-1.png);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 23.2vw;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,6 +44,9 @@
 
   .unitTesting {
     background-image: url(../../images/Unit-Testing.jpg);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 23.2vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,18 +54,27 @@
 
   .gitHub {
     background-image: url(../../images/machine_learning_github.jpg);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 23.2vw;
     background-size: cover;
     background-position: center;
   }
 
   .react {
     background-image: url(../../images/1_y6C4nSvy2Woe0m7bWEn4BA.png);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 34.8vw;
     background-size: cover;
     background-position: center;
   }
 
   .softSkills {
     background-image: url(../../images/1A83FE99-F4E9-468B-BC04-1526DB47954C.JPEG);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 34.8vw;
     background-size: cover;
   }
 }
@@ -65,3 +90,14 @@
     cursor: pointer;
   }
 }
+
+// @media (min-width: 576px) max-width  90vw }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {  }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {  }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {  }
