@@ -45,7 +45,7 @@ class Intro extends Component {
               <Column
                 className={styles.gitHub}
                 text={
-                  "Experience using GitHub flow and utilising vrsion control during team based projects. Please see my GitHub for more info."
+                  "Experience using GitHub flow and utilising version control during team based projects. Please see my GitHub for more info."
                 }
               />
               <Column
@@ -67,7 +67,7 @@ class Intro extends Component {
               <Column
                 className={styles.react}
                 text={
-                  "Experience of using React.js building both personal and client projects. I personally enjoy using React to build applications."
+                  "Experience of using React.js building both personal and client projects. I have found a real enjoyment using React to build applications."
                 }
               />
               <Column

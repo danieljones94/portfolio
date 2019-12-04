@@ -32,7 +32,8 @@ export const data = [
     description:
       "A to do list tool that a logged in user can use to create, update and delete personal to do lists.",
     requirements:
-      "Authentication and hosted with firebase, the user needs to be able to create new list items that are personal to them when they are logged in, using React.js."
+      "Authentication and hosted with firebase, the user needs to be able to create new list items that are personal to them when they are logged in, using React.js.",
+    url: "https://todo.danmjones.co.uk/"
   },
   {
     title: "In Collaboration",
