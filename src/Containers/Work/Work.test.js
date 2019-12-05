@@ -1,6 +1,6 @@
 import React from "react";
 import Work from "./Work";
-import shallow from "enzyme";
+import mount from "enzyme";
 import data from "../../static/data";
 
 const mockData = {
@@ -16,10 +16,10 @@ const mockData = {
 describe("work tests", () => {
   beforeEach(() => {
     testfunction = jest.fn();
-    component = shallow(
+    component = mount(
       <Work
         title={mockData.title}
-        image={mockData.image}
+        image={nugosauce}
         description={mockData.description}
         requirements={mockData.requirements}
         url={mockData.url}

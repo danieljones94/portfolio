@@ -24,6 +24,6 @@ describe("Intro tests", () => {
   });
 
   test("the hover state of the page should be false", () => {
-    expect(component.state("hover").toEqual(false));
+    expect(component.state("hover")).toEqual(false);
   });
 });
