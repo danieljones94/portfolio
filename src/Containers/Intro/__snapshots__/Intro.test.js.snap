@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro tests should match the snapshot 1`] = `
+<Fragment>
+  <section
+    className="introContainer"
+    id="intro"
+  >
+    <Container
+      className="gridContainer"
+      fluid={false}
+    >
+      <ForwardRef
+        className="row"
+        noGutters={false}
+      >
+        <Column
+          className="html"
+          text="I have  experience working with HTML, CSS, SASS and Javascript, completing various challenges and personal projects"
+        />
+        <Column
+          className="agile"
+          text="I enjoy engaging in Agile and SCRUM principles, having personally ran and facilitated stand up meetings, retrospectives and kanban team boards."
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="row"
+        noGutters={false}
+      >
+        <Column
+          className="gitHub"
+          text="Experience using GitHub flow and utilising version control during team based projects. Please see my GitHub for more info."
+        />
+        <Column
+          className="database"
+          text="An understanding of the use of databases. I have experience of storing, creating, updating and deleting data, as well as REST API practices."
+        />
+        <Column
+          className="unitTesting"
+          text="I understand the importance of unit testing and strive to use it where appropriate to make my code concise and readable."
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="row"
+        noGutters={false}
+      >
+        <Column
+          className="react"
+          text="Experience of using React.js building both personal and client projects. I have found a real enjoyment using React to build applications."
+        />
+        <Column
+          className="softSkills"
+          text="This is probably the skillset I value and pride myself on the most. Having a background in performance psychology, this is something I seek to continually improve."
+        />
+      </ForwardRef>
+    </Container>
+  </section>
+  <div>
+    <a
+      className="scroll"
+      href="#work"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f078",
+              "M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z",
+            ],
+            "iconName": "chevron-down",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </a>
+  </div>
+</Fragment>
+`;

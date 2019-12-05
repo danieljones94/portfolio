@@ -21,25 +21,25 @@ describe("Panel tests", () => {
     );
   });
 
-  it("should match the snapshot", () => {
+  test("should match the snapshot", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("should contain a HTML p tag", () => {
+  test("should contain a HTML p tag", () => {
     expect(component.find("p").length).toEqual(2);
     expect(component.find("a").length).toEqual(1);
     expect(component.find("img").length).toEqual(1);
   });
 
-  it("should receive data that is passed down as props", () => {
+  test("should receive data that is passed down as props", () => {
     expect(component.props().url).toEqual(mockURL);
   });
 
-  it("should render data passed down as props", () => {
+  test("should render data passed down as props", () => {
     expect(component.text()).toContain(mockDescription);
   });
 
-  it("should toggle the hover state when the enters the component", () => {
+  test("should toggle the hover state when the enters the component", () => {
     expect(component.state("hover")).toEqual(false);
     component.instance().toggleHover();
     expect(component.state("hover")).toEqual(true);
