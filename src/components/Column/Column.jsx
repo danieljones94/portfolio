@@ -16,13 +16,13 @@ class Column extends Component {
           transform: "scale(1.1)",
           transition: "all 1s ease",
           color: "white",
-          // backgroundColor: "transparent",
-          padding: "3vh"
+          backgroundColor: "black",
+          padding: "2vh"
         })
       : (style = {
           cursor: "pointer",
           color: "transparent",
-          padding: "3vh"
+          padding: "2vh"
         });
 
     return (

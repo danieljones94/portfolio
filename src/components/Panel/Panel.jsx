@@ -15,13 +15,14 @@ class Panel extends Component {
           transform: "scale(1.05)",
           transition: "all 1s ease",
           color: "white",
-          backgroundColor: "#4a738c70",
-          padding: "3vh"
+          backgroundColor: "#4a738c70"
+          // padding: "3vh"
         })
       : (style = {
           cursor: "pointer",
-          color: "transparent",
-          padding: "3vh"
+          color: "transparent"
+          // fontSize: "20px"
+          // padding: "3vh"
         });
     return (
       <section className={styles.panelContainer}>

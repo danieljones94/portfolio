@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 class Intro extends Component {
-  state = { hover: false };
+  state = {};
 
   // toggleHover = event => {
   //   this.setState({ hover: !this.state.hover });
