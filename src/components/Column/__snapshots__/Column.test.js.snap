@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`column tests should match the snapshot 1`] = `
+<Column
+  onMouseEnter={[Function]}
+  text="I have  experience working with HTML, CSS, SASS and Javascript, completing various challenges and personal projects"
+>
+  <div
+    className="columnContainer"
+  >
+    <Col
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "transparent",
+          "cursor": "pointer",
+          "padding": "3vh",
+        }
+      }
+    >
+      <div
+        className="col"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "color": "transparent",
+            "cursor": "pointer",
+            "padding": "3vh",
+          }
+        }
+      />
+    </Col>
+    <p
+      className="text"
+      style={
+        Object {
+          "color": "transparent",
+          "cursor": "pointer",
+          "padding": "3vh",
+        }
+      }
+    >
+      I have  experience working with HTML, CSS, SASS and Javascript, completing various challenges and personal projects
+    </p>
+  </div>
+</Column>
+`;

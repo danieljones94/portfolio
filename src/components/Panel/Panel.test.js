@@ -1,18 +1,23 @@
-import Column from "./Column";
 import React from "react";
+import Panel from "./Panel";
 import { mount } from "enzyme";
 
-let mockData =
-  "I have  experience working with HTML, CSS, SASS and Javascript, completing various challenges and personal projects";
+const mockURL = "http://nug-of-sauce.danmjones.co.uk/";
+const mockDescription =
+  "A tug of war game, whereby the player who presses their button the most times wins.";
 
-describe("column tests", () => {
+describe("Panel tests", () => {
   let testFunction;
   let component;
 
   beforeEach(() => {
     testFunction = jest.fn();
     component = mount(
-      <Column text={mockData} onMouseEnter={() => testFunction()} />
+      <Panel
+        url={mockURL}
+        onMouseEnter={() => testFunction()}
+        description={mockDescription}
+      />
     );
   });
 
@@ -21,15 +26,17 @@ describe("column tests", () => {
   });
 
   it("should contain a HTML p tag", () => {
-    expect(component.find("p").length).toEqual(1);
+    expect(component.find("p").length).toEqual(2);
+    expect(component.find("a").length).toEqual(1);
+    expect(component.find("img").length).toEqual(1);
   });
 
   it("should receive data that is passed down as props", () => {
-    expect(component.props().text).toEqual(mockData);
+    expect(component.props().url).toEqual(mockURL);
   });
 
   it("should render data passed down as props", () => {
-    expect(component.text()).toContain(mockData);
+    expect(component.text()).toContain(mockDescription);
   });
 
   it("should toggle the hover state when the enters the component", () => {

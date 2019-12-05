@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel tests should match the snapshot 1`] = `
+<Panel
+  description="A tug of war game, whereby the player who presses their button the most times wins."
+  onMouseEnter={[Function]}
+  url="http://nug-of-sauce.danmjones.co.uk/"
+>
+  <section
+    className="panelContainer"
+  >
+    <a
+      href="http://nug-of-sauce.danmjones.co.uk/"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        className="panel"
+        style={
+          Object {
+            "color": "transparent",
+            "cursor": "pointer",
+            "padding": "3vh",
+          }
+        }
+      />
+      <p
+        style={
+          Object {
+            "color": "transparent",
+            "cursor": "pointer",
+            "padding": "3vh",
+          }
+        }
+      >
+        A tug of war game, whereby the player who presses their button the most times wins.
+      </p>
+      <p
+        style={
+          Object {
+            "color": "transparent",
+            "cursor": "pointer",
+            "padding": "3vh",
+          }
+        }
+      />
+    </a>
+  </section>
+</Panel>
+`;
